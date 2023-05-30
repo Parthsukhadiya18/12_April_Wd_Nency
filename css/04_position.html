@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTItot5CpyPX3PU9WlQ1es0fs0_D5z1dnNlqVOGl0-Ihg&s">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        * {
+            font-family: 'Pangolin', cursive;
+
+        }
+
+        img {
+            position: relative;
+            /* position: static; */
+        }
+
+        /* p {
+            position: absolute;
+            top: 100px;
+            left: 120px;
+            color: red;
+            font-size: 30px;
+            bold bolder lighter 100 -900
+            font-weight: 900;
+            italic  oblique normal
+            font-style: normal;
+
+            font-family: 'Merriweather', serif;
+             font-family: 'Nunito Sans', sans-serif; 
+        } */
+        .static {
+            border: 1px solid black;
+            /* position: static; */
+            background-color: aqua;
+        }
+
+        .relative {
+            border: 1px solid black;
+            position: relative;
+            background-color: aqua;
+        }
+
+        .sticky {
+            border: 1px solid black;
+            position: sticky;
+            background-color: aqua;
+            top: 300px;
+        }
+
+        .div {
+            border: 1px solid black;
+            /* position: static; */
+            /* position: relative; */
+            position: fixed;
+            z-index: 1;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel maxime facilis nihil
+        voluptatum,
+        iste hic
+        libero fugit dolore iure. Quibusdam, commodi. Quammollitia distinctio eaque magnam aspernatur sit sunt.</div>
+    <div class="relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel maxime facilis nihil
+        voluptatum,
+        iste hic
+        libero fugit dolore iure. Quibusdam, commodi. Quammollitia distinctio eaque magnam aspernatur sit sunt.</div>
+    <div class="sticky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel maxime facilis nihil
+        voluptatum,
+        iste hic
+        libero fugit dolore iure. Quibusdam, commodi. Quammollitia distinctio eaque magnam aspernatur sit sunt.</div>
+    <div class="div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel maxime facilis nihil voluptatum,
+        iste hic
+        libero fugit dolore iure. Quibusdam, commodi. Quammollitia distinctio eaque magnam aspernatur sit sunt.</div>
+    <!-- position  reletive -->
+    <div>
+        <img src="https://images.pexels.com/photos/15360894/pexels-photo-15360894/free-photo-of-woman-standing-on-the-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+            alt="">
+        <p>lorem10</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum minus at labore ea dicta fugiat asperiores autem
+        omnis voluptatum? Hic?</p>
+
+
+
+
+</body>
+
+</html>
